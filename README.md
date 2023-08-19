@@ -48,7 +48,9 @@ code .
 ## Author
 This project was built and is maintained by:
 - Levin Mwange
-
+```
+https://github.com/MwangeLee
+```
 ## Known Issues
 Am still working on the responsive nature of the website
 
