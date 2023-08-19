@@ -28,7 +28,7 @@ This section will guide you on how to run this website in your local machine
 On your computer open the `terminal`(Linux/MacOS) or `GitBash`(windows)
 
 ```
-git clone <url>
+git clone https://github.com/MwangeLee/StreetFood.git
 ```
 2. change to your working directory
 ```
