@@ -43,7 +43,7 @@ code .
 
 ## Screenshots
 
-![one](StreetFod.png)
+![one](StreetFood.png)
 
 ## Author
 This project was built and is maintained by:
