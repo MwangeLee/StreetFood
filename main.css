@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #fff;
+}
+
+/*---home section---*/
+#home {
+  background-color: #c4c4c4d8;
+  height: 100vh;
+}
+
+#home .container {
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  padding-left: 100px;
+  position: relative;
+}
+.logo {
+  width: 100px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+}
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #040102;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.col1 {
+  align-items: center;
+  padding: 100px;
+  flex-basis: 30%;
+}
+
+.home {
+  display: flex;
+}
+.col1 h1 {
+  color: #6cb840;
+}
+
+.col1 h1 span {
+  color: #eaab1b;
+}
+
+.col1 p {
+  font: 1.5rem sans-serif;
+}
+
+.col1 button {
+  color: #fff;
+  background-color: #6cb840;
+  border-radius: 30px;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+}
+.col1 button:hover{
+  background-color: #eaab1b;
+  opacity: 0.7;
+}
+.col2{
+  flex-basis: 65%;
+}
+/*--Eating together section--*/
+#about {
+  height: 80vh;
+  padding: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.about-img img {
+  width: 750px;
+  flex-basis: 65%;
+}
+
+.about-text {
+  margin-top: 10%;
+  margin-right: 10%;
+  flex-basis: 35%;
+}
+
+.about-text h1 span {
+  color: #eaab1b;
+}
+
+/*----exploreMore----*/
+#explore-menu .container {
+  background-color: #c4c4c4d8;
+  height: 100vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 100px;
+  padding-left: -50px;
+}
+
+.menu-grid {
+  display: flex;
+  margin: 0;
+  padding-left: -50px;
+}
+
+.menu {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  margin: 0;
+  margin-left: 0;
+}
+
+.menu-text {
+  background-color: #fff;
+  border-bottom-right-radius: 30%;
+  margin-top: 20%;
+  height: 210px;
+  margin-left: -180px;
+  width: 300px;
+}
+
+.menu-text p {
+  margin-left: 100px;
+}
+
+.text {
+  text-align: center;
+  padding: 10px;
+}
+
+.menu-img {
+  margin-top: 25%;
+  margin-right: 20px;
+  position: relative;
+}
+
+.menu-img img {
+  height: 230px;
+  margin-left: -30px;
+}
+
+#explore-menu .container span {
+  color: #6cb840;
+}
+
+/*--- hot deals ---*/
+#hot-deals .container {
+  background-color: #c9ecb5;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 100vh;
+}
+
+.deals {
+  display: flex;
+}
+
+#hot-deals .container span {
+  color: #6cb840;
+}
+
+#hot-deals .hot-deals-img {
+  display: flex;
+  padding: 0;
+}
+
+.hot-deals-img {
+  display: flex;
+  margin-top: -130px;
+}
+
+.hot-deals-img .img2 {
+  margin-top: 39%;
+  margin-left: -370px;
+}
+
+.hot-deals-text {
+  padding: 100px;
+}
+
+/*---- contact us----*/
+#contact-us .container {
+  background-color: #ffd77c;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 100vh;
+}
+
+#contact-us .container .contact-us-text {
+  text-align: center;
+  padding-left: 450px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#contact-us .container span {
+  color: #6cb840;
+}
+
+#contact-us .container input {
+  border: none;
+  border-radius: 20%;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 350px;
+  padding: 20px;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+  border-radius: 20px;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: #6cb840;
+  color: #fff;
+}
+
+ #contact-us .container  button:hover{
+  background-color: #eaab1b;
+  opacity: 0.7;
+}
+
+/*footer*/
+#footer .container {
+  margin-top: 50px;
+  background-color: #c9ecb5;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 30px;
+}
+
+#footer .container .row {
+  display: flex;
+}
+
+#footer .container .row .row1 {
+  border-right: dashed #6cb840;
+}
+
+.row1 {
+  width: 350px;
+}
+
+.row2 {
+  padding: 50px;
+}
+
+.row3 {
+  padding: 50px;
+}
+
+.row4 {
+  margin-right: 0;
+  text-align: center;
+  padding: 50px;
+  width: 100px;
+}
+
+.row4 a {
+  font-size: 20px;
+  color: #000000;
+}
+.row4 a:hover {
+  color: #eaab1b;
+}
+
+.row4 button {
+  background-color: #6cb840;
+  border: none;
+  text-decoration: none;
+  width: 100px;
+  color: #fff;
+}
+.row4 button:hover {
+  opacity: 0.7;
+  background-color: #eaab1b;
+}
