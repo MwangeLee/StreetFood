@@ -26,12 +26,15 @@ nav {
   flex-wrap: wrap;
   width: 90%;
   padding-left: 100px;
-  position: relative;
 }
+
 .logo {
   width: 100px;
   padding-left: 0;
   padding-right: 0;
+  position: relative;
+}
+.mid {
   position: relative;
 }
 
@@ -47,6 +50,7 @@ nav ul li a {
   font-size: 17px;
   position: relative;
 }
+
 nav ul li a::after {
   content: "";
   width: 0;
@@ -57,6 +61,7 @@ nav ul li a::after {
   bottom: -6px;
   transition: 0.5s;
 }
+
 nav ul li a:hover::after {
   width: 100%;
 }
@@ -70,6 +75,7 @@ nav ul li a:hover::after {
 .home {
   display: flex;
 }
+
 .col1 h1 {
   color: #6cb840;
 }
@@ -90,13 +96,23 @@ nav ul li a:hover::after {
   border: none;
   cursor: pointer;
 }
-.col1 button:hover{
+
+.col1 button:hover {
   background-color: #eaab1b;
   opacity: 0.7;
 }
-.col2{
+
+.col2 {
   flex-basis: 65%;
+  background-color: #649549;
+  width: 800px;
+  height: 800px;
+  right: 0%;
+  top: -50%;
+  border-radius:50% 0% 60% 80%;
+  margin-top: -420px;
 }
+
 /*--Eating together section--*/
 #about {
   height: 80vh;
